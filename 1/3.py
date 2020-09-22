@@ -1,0 +1,5 @@
+meno = input('zadaj meno:')
+vek = input('zadaj vek:')
+print(meno + ' má ' + vek + ' rokov')
+print(meno + ' bude mat o rok ' + str(int(vek)+1) + ' rokov')
+print(meno + ' bude mat o 10 rokov ' + str(int(vek)+10) + ' rokov')

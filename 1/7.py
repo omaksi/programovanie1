@@ -1,0 +1,10 @@
+a1 = input('zadaj 1. slovo:')
+a2 = input('zadaj 2. slovo:')
+a3 = input('zadaj 3. slovo:')
+
+print(a1, a2, a3)
+print(a1, a3, a2)
+print(a2, a1, a3)
+print(a2, a3, a1)
+print(a3, a1, a2)
+print(a3, a2, a1)
