@@ -1,7 +1,5 @@
-def riadok(d, text=''):
-    h1 = ((d - len(text) - 2) // 2)
-    h2 = (h1 + ((d - len(text) - 2) % 2 > 0))
-    print(f'{h1 * "*"} {text} {h2 * "*"}' if text != '' else d * '*')
+def riadok(d, t=''):
+    print(f'{((d - len(t) - 2) // 2) * "*"} {t} {(((d - len(t) - 2) // 2) + ((d - len(t) - 2) % 2 > 0)) * "*"}' if t != '' else d * '*')
 
 
 sir = 40
