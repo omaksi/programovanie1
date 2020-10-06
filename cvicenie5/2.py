@@ -1,13 +1,8 @@
-def riadok(dlzka, text=''):
+def riadok(d, text=''):
 
-    if text == '':
-        print(dlzka * '*')
-        return
-    text_dlzka = len(text)
-    hviezdicky = int((dlzka - text_dlzka - 2) / 2) * '*'
-    print_text = hviezdicky + ' ' + text + ' ' + hviezdicky
-    if len(print_text) < dlzka:
-        print_text += '*'
+    h1 = ((d - len(text) - 2) // 2)
+    h2 = (h1 + ((d - len(text) - 2) % 2 > 0))
+    print_text = f'{h1 * "*"} {text} {h2 * "*"}' if text != '' else d * '*'
 
     print(print_text)
 
