@@ -5,3 +5,4 @@ while n < f:
     counter += 1
     n = (n*1.1)
 print(f'na {counter}. deň prebehne {round(n, 2)} km')
+ 
