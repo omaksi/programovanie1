@@ -1,0 +1,5 @@
+prvý riadok
+druhý riadok
+predposledný
+posledný riadok
+
